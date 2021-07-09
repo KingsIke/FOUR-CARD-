@@ -1,0 +1,170 @@
+@media screen and (min-width: 1200px){
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+body{
+    width: 100%;
+    background-color: whitesmoke;
+}
+header{
+padding-left: 300px;
+padding-top: 70px;
+
+}
+header p{
+    font-size: 20px;
+    line-height: 1;
+}
+header #use{
+    padding-left: 70px;
+}
+header #pin{
+    font-family: Arial Black;
+    padding-left: 70px;
+    padding-bottom: 5px;
+}
+
+
+#relative{
+    
+    margin-top: 120px;
+    padding: 50px;
+}
+
+
+
+ #relative .first{
+    width: 330px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(250, 247, 247);
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 10px 10px grey;
+    border-radius: 20px;
+
+}
+
+
+#relative .check{
+    position: relative;
+    top: 110px;
+    
+    
+}
+
+
+.check{
+    background-color: #4d465e;
+}
+
+.up{
+    position: absolute;
+    top: 245px;
+    left: 410px;
+   
+}
+
+
+#fir{
+
+    margin: 20px;
+
+    
+}
+#fir img{
+    padding-left: 220px;
+    padding-top: 20px;
+}
+#fir h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+}
+
+@media (max-width:1195px) and (min-width: 620px){
+
+    
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+body{
+    width: 100%;
+    background-color: white;
+    
+
+}
+.option{
+    width: 60%;
+    
+    margin: 90px;
+    background-color: whitesmoke;
+    position: inherit;
+
+}
+header{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+header p{
+    font-size: 20px;
+    line-height: 1;
+}
+header #use{
+    padding-left: 70px;
+}
+header #pin{
+    font-family: Arial Black;
+    padding-left: 70px;
+
+}
+
+#relative{
+    
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+
+ #relative .first{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(250, 247, 247);
+    display: block;
+    
+    
+    margin-bottom:50px ;
+
+}
+
+#fir{
+    
+    margin: 20px;
+
+    
+}
+#fir img{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+#fir h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+}
